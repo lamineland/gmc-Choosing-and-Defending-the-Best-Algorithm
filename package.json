@@ -1,0 +1,13 @@
+{
+  "name": "best-algorithm",
+  "version": "1.0.0",
+  "description": "Brute-force vs greedy comparison for maximum non-overlapping delivery tasks (interval scheduling)",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "benchmark": "node scripts/benchmark.js",
+    "stress": "node scripts/stressTest.js",
+    "all": "node scripts/validate.js && node scripts/benchmark.js && node scripts/stressTest.js"
+  },
+  "license": "MIT"
+}
